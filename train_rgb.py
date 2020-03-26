@@ -9,7 +9,7 @@ from utils import batch_PSNR
 import visdom
 
 
-#  python train_rgb.py -c 0 --noiseL 25
+#  python train_rgb.py --batchsize 8 -checkpoint 0 --noiseL 25
 parser =argparse.ArgumentParser(description="SMNet Train")
 parser.add_argument("--batchsize", type=int, default=8, help="Training batch size")
 parser.add_argument("--epochs", type=int,  default=50, help="Number of training epochs")

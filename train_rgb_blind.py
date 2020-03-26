@@ -10,7 +10,7 @@ import visdom
 import numpy as np
 
 
-#  python train_rgb_blind.py -c 0
+#  python train_rgb_blind.py --batchsize 8 -checkpoint 0
 parser =argparse.ArgumentParser(description="SMNet Train")
 parser.add_argument("--batchsize", type=int, default=8, help="Training batch size")
 parser.add_argument("--epochs", type=int,  default=100, help="Number of training epochs")

@@ -17,19 +17,24 @@ The weights of SMNet are downloaded at https://pan.baidu.com/s/1Dg2813dXUlvJ20HZ
 
 ### Training
 #### Train SMNet-S (SMNet with known noise level)
-python train_rgb.py --batchsize 8 -checkpoint 0 --noiseL 25
+`python train_rgb.py --batchsize 8 -checkpoint 0 --noiseL 25`
 
-python train_gray.py --batchsize 8 -checkpoint 0 --noiseL 25
+`python train_gray.py --batchsize 8 -checkpoint 0 --noiseL 25`
 
 #### Train SMNet-B (SMNet with blind noise level)
-python train_rgb_blind.py --batchsize 8 -checkpoint 0
+`python train_rgb_blind.py --batchsize 8 -checkpoint 0`
 
-python train_gray_blind.py --batchsize 8 -checkpoint 0
+`python train_gray_blind.py --batchsize 8 -checkpoint 0`
 
 ### Testing
 #### Test rgb noisy images
-python test_rgb.py -checkpoint 40 --mode S --test_noiseL 15 --test_data McMaster
+`python test_rgb.py -checkpoint 40 --mode S --test_noiseL 15 --test_data McMaster`
 
 #### Test gray noisy images
-python test_gray.py -checkpoint 40 --mode S --test_noiseL 15 --test_data Set12
+`python test_gray.py -checkpoint 40 --mode S --test_noiseL 15 --test_data Set12`
+
+
+![SMNet](./result/net.png)
+
+
 

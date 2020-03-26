@@ -8,9 +8,9 @@ Single image de-noising is an important yet under-explored task toestimate the u
 ### Training dataset
 The training dataset is downloaded at https://pan.baidu.com/s/1gUzKJBr1cdO963sm6FXZFQ  extraction code：9txx
 #### create training dataset of rgb images
-python dataset.py 
+`python dataset.py` 
 #### create training dataset of gray images
-python dataset_gray.py 
+`python dataset_gray.py` 
 
 ### SMNet weights
 The weights of SMNet are downloaded at https://pan.baidu.com/s/1Dg2813dXUlvJ20HZdG9G3A extraction code：k7ov
@@ -33,7 +33,7 @@ The weights of SMNet are downloaded at https://pan.baidu.com/s/1Dg2813dXUlvJ20HZ
 #### Test gray noisy images
 `python test_gray.py -checkpoint 40 --mode S --test_noiseL 15 --test_data Set12`
 
-
+### Network architecture
 ![SMNet](./result/net.png)
 
 

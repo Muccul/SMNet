@@ -7,6 +7,13 @@ Single image de-noising is an important yet under-explored task toestimate the u
 ### Network architecture
 ![SMNet](results/net.png)
 
+## Prerequisites 
+- Python 3.6
+- Pytorch 1.0 or higher
+- torchvision
+- openCv for Python
+- HDF5 for Python
+
 ## Commands
 ### Training dataset
 The training dataset is downloaded at https://pan.baidu.com/s/1gUzKJBr1cdO963sm6FXZFQ  extraction code：9txx
@@ -36,7 +43,7 @@ The weights of SMNet are downloaded at https://pan.baidu.com/s/1Dg2813dXUlvJ20HZ
 #### Test gray noisy images
 `python test_gray.py -checkpoint 40 --mode S --test_noiseL 15 --test_data Set12`
 
-### Test results
+## Test results
 
 
 

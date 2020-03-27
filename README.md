@@ -43,7 +43,12 @@ The weights of SMNet are downloaded at https://pan.baidu.com/s/1Dg2813dXUlvJ20HZ
 `python test_gray.py -checkpoint 40 --mode S --test_noiseL 15 --test_data Set12`
 
 ## Test results
+#### 1. results of rgb images
+![rgb results](./results/rgb.png)
 
+#### 2. results of BSD68
+![BSD68 results](./results/bsd68.png)
 
-
+#### 3. results of Set12
+![Set12 results](./results/set12.png)
 

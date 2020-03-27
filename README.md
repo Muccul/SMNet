@@ -11,7 +11,8 @@ Single image de-noising is an important yet under-explored task toestimate the u
 - Python 3.6
 - Pytorch 1.0 or higher
 - OpenCV for Python
-- HDF5 for Python
+- Visdom
+
 
 ## Commands
 ### Training dataset
